@@ -1,0 +1,87 @@
+/* Main Review Section */
+.review-section {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Heading */
+.review-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* SwiperJS Custom Styling */
+.review-slider {
+    padding: 20px 0;
+}
+
+/* Review Cards */
+.review-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 280px;
+    min-height: 240px; /* ✅ Ensures all cards have a minimum height */
+    display: flex;
+    flex-direction: column; /* ✅ Ensures text stays aligned */
+    justify-content: space-between; /* ✅ Distributes content evenly */
+    border: 2px solid #ddd; /* ✅ Light border instead of shadow */
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.review-card:hover {
+    border: 2px solid #8162ff;
+    transform: translateY(-5px);
+}
+
+/* Review Header */
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* User Icon */
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #d8d8d8;
+}
+
+/* User Info */
+.user-info h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.review-date {
+    font-size: 0.85rem;
+    color: gray;
+    margin: 0;
+}
+
+/* Review Text */
+.review-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+
+/* Swiper Pagination */
+.swiper-pagination {
+    position: relative;
+    margin-top: 10px;
+}
+
+/* Swiper Navigation Arrows */
+.swiper-button-prev, .swiper-button-next {
+    color: #8162ff;
+}

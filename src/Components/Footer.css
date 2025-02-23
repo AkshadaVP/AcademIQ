@@ -1,0 +1,84 @@
+.footer-container {
+    background-color: #B3B3E0;
+    padding: 3rem 5rem;
+    border-radius: 150px 150px 0 0; /* Matches the curved design */
+    color: black;
+}
+
+/* Footer content layout */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Left Section - About & Courses */
+.footer-links {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+}
+
+/* Right Section - Tagline & Contact */
+.footer-tagline {
+    text-align: right;
+}
+
+.footer-tagline h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-text {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    justify-content: right;
+
+}
+
+.social-icon {
+    font-size: 1.8rem;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #444; /* Slightly darker hover effect */
+}
+
+/* Footer Logo */
+.footer-logo {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: auto;
+}
+.textandicon{
+    margin-top: 7rem;
+}

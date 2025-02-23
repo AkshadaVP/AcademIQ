@@ -1,0 +1,86 @@
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Text on left, image on right */
+    align-items: center;
+    flex-direction: row; /* Ensure horizontal layout */
+    background: white;
+    border-radius: 0px 0px 150px 150px; 
+    padding: 0rem 5rem 0rem 6rem;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+
+}
+
+/* Left side content */
+.header-content {
+    max-width: 100%; /* Increased width so text has more space */
+    margin-bottom: 8rem;
+    margin-left: 2rem;
+}
+
+.header-content h2 {
+    font-size: 3rem;  /* Slightly reduced so it fits in two lines */
+    line-height: 1.2;
+    color: #000;
+    white-space: normal; /* Allows text to wrap properly */
+}
+
+
+.header-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/* Search & Sign Up Section */
+.searchandsignup {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Search Bar */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+}
+
+#search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.Search-icon {
+    position: absolute;
+    right: 15px;
+    width: 20px;
+}
+
+/* Sign Up Button */
+#signup-button {
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+    background-color: #231F20;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Right side image */
+.header-img {
+    max-width: 100%;
+    max-height: 25rem;
+    z-index: 10;
+    
+}

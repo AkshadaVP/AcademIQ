@@ -1,0 +1,51 @@
+.CourseHeading {
+    font-size: 45px !important;  /* Increase size & force it */
+    font-weight: bold;  /* Make it stand out */
+    text-align: center;
+    margin: 1rem;
+    color: black; /* Ensure visibility */
+}
+.CourseSectionContainer {
+    padding: 20px;
+    background-color: #B3B3E0;
+}
+
+/* Swiper Container Styling */
+.swiper-wrapper-container {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Ensure Navigation Arrows are Visible & Aligned */
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white !important;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Position Navigation Arrows Inside the Slider */
+.swiper-button-prev {
+    left: 10px; /* Moves left arrow inside */
+}
+
+.swiper-button-next {
+    right: 10px; /* Moves right arrow inside */
+}
+
+/* Hover Effect for Arrows */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}

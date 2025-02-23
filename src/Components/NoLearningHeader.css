@@ -1,0 +1,42 @@
+body{
+    background-color: #B3B3E0;
+}
+
+.main-container {
+    background-color: #B3B3E0; /* Light purple background */
+    display: flex;
+    overflow-x: hidden;
+     /* Added to eliminate horizontal scrolling */
+     justify-content: space-between;
+}
+
+.main-container p {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin-top: 5rem;
+    text-align: center;
+    margin-right: 12rem;
+    padding: 0.5rem;
+    
+
+}
+
+.main-container img{
+    height: 30rem;
+    width: 35rem;
+}
+
+.search-container img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.search-container{
+    width: 75%;
+    padding-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+

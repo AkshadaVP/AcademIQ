@@ -1,0 +1,113 @@
+/* Card Container */
+.course-card {
+    width: 320px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 15px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Course Image Container */
+.course-img-container {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #d8d8d8;
+}
+
+.course-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Duration Overlay */
+.duration {
+    background: #CFCFEA;
+    color: rgba(0,0,0,255);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    gap: 5px; 
+    padding: 7px;
+    translate: 16px;
+}
+
+.clock-icon {
+    width: 14px;
+    height: 14px;
+    
+}
+
+/* Course Details */
+.course-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0 5px;
+}
+
+.course-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Instructor Styling */
+.instructor {
+    font-size: 14px;
+    color: #6b5cff;
+    font-weight: 600;
+}
+
+/* Rating Section */
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.rating-value {
+    font-weight: bold;
+}
+
+.star-icons {
+    width: 80px; /* Adjust star icon size */
+}
+
+/* Course Meta: Modules & Last Updated */
+.course-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.modules {
+    background: #8162ff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.update-date {
+    color: #777;
+}
+
+.headingandduration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
