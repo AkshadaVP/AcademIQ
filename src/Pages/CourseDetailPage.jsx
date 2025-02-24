@@ -1,27 +1,26 @@
-// src/Pages/CourseDetailPage.jsx
-import React from "react";
-import { useParams } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import coursesData from "../data/courses.json";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import "./CourseDetailPage.css";
 
-// 1) Helper to resolve image paths just like in Card.jsx
+// Resolve image paths using Vite
 const getCourseImage = (coverImage) => {
   try {
-    // Vite-compatible way to resolve relative image paths
     return new URL(coverImage, import.meta.url).href;
   } catch (error) {
     console.error("Error loading course image:", error);
-    // Fallback image if the path fails
     return new URL("../assets/CourseCoverImg/placeholder.jpg", import.meta.url).href;
   }
 };
 
 const CourseDetailPage = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const course = coursesData.find((c) => c.id === parseInt(id));
 
+  // Redirect if course is not found
   if (!course) {
     return (
       <div>
@@ -34,17 +33,46 @@ const CourseDetailPage = () => {
     );
   }
 
-  // 2) Use getCourseImage to resolve the course.coverImage from JSON
+  // Manage enrollment state
+  const [isEnrolled, setIsEnrolled] = useState(() => {
+    return JSON.parse(localStorage.getItem(`enrolled-${id}`)) || false;
+  });
+
+  // Update localStorage when enrollment status changes
+  useEffect(() => {
+    localStorage.setItem(`enrolled-${id}`, JSON.stringify(isEnrolled));
+  }, [isEnrolled, id]);
+
+  // Handle enrollment
+  const handleEnroll = () => {
+    setIsEnrolled(true);
+    localStorage.setItem("hasLearnings", "true");
+  };
+
+  // Navigate to syllabus when "Go to Course" is clicked
+  const goToCourse = () => {
+    navigate(`/courses/${id}/syllabus`);
+  };
+
+  // Back button: navigate to course list/homepage (adjust as needed)
+  const handleBack = () => {
+    navigate("/home");
+  };
+
   const resolvedImage = getCourseImage(course.coverImage);
 
   return (
     <div className="course-detail-wrapper">
       <Navbar />
 
+      {/* Back Button */}
+      <div className="back-button-container">
+        <button className="back-btn" onClick={handleBack}>← Back</button>
+      </div>
+
       <div className="course-detail-container">
         {/* Header Section */}
         <header className="course-header">
-          {/* Left side: course info */}
           <div className="course-info">
             <h1 className="course-title">{course.title}</h1>
             <p className="course-instructor">By {course.instructor}</p>
@@ -61,20 +89,20 @@ const CourseDetailPage = () => {
               </span>
             </div>
 
-            <button className="enroll-btn">Enroll Now</button>
+            {/* Button changes dynamically based on enrollment status */}
+            {!isEnrolled ? (
+              <button className="enroll-btn" onClick={handleEnroll}>Enroll Now</button>
+            ) : (
+              <button className="go-to-course-btn" onClick={goToCourse}>Go to Course</button>
+            )}
           </div>
 
-          {/* Right side: course image */}
           <div className="course-image">
-            <img
-              src={resolvedImage}
-              alt="Course Cover"
-              className="detail-cover-img"
-            />
+            <img src={resolvedImage} alt="Course Cover" className="detail-cover-img" />
           </div>
         </header>
 
-        {/* Main Content: two boxes side by side */}
+        {/* Main Content */}
         <div className="course-content">
           <section className="what-you-will-learn">
             <h2>What You Will Learn</h2>

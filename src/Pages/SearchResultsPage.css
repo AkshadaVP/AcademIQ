@@ -1,0 +1,32 @@
+/* Full white background for the page */
+.search-results-page {
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  /* Center the content and add padding */
+  .search-results-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  /* Heading style for the search results */
+  .results-heading {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  /* Grid layout for course cards */
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  /* Optional styling for individual result cards */
+  .result-card {
+    /* Add any additional styling if needed */
+  }
+  

@@ -2,73 +2,95 @@
 .course-detail-wrapper {
     width: 100%;
     background-color: #fefefe;
-  }
-  
-  /* Main container: max-width, auto margin for centering */
-  .course-detail-container {
+}
+
+/* Main container: max-width, auto margin for centering */
+.course-detail-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-  }
-  
-  /* Header: flex layout (info on left, image on right) */
-  .course-header {
+}
+
+/* Back Button Container */
+.back-button-container {
+    padding: 1rem 2rem;
+}
+
+/* Back Button Styling */
+.back-btn {
+    background-color: transparent;
+    border: 2px solid #6441a5;
+    color: #6441a5;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #6441a5;
+    color: #fff;
+}
+
+/* Header: flex layout (info on left, image on right) */
+.course-header {
     display: flex;
     flex-wrap: wrap; /* Ensures wrapping on smaller screens */
     gap: 2rem;
     margin-bottom: 2rem;
-  }
-  
-  /* Left side: course info */
-  .course-info {
+}
+
+/* Left side: course info */
+.course-info {
     flex: 1 1 50%; /* Takes up ~50% on large screens */
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  
-  /* Right side: course image */
-  .course-image {
+}
+
+/* Right side: course image */
+.course-image {
     flex: 1 1 40%; /* Takes up ~40% on large screens */
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .course-image img {
+}
+
+.course-image img {
     width: 100%;
     max-width: 400px; /* Limit image size */
     border-radius: 10px;
     object-fit: cover;
-  }
-  
-  /* Title and Instructor */
-  .course-title {
-    font-size: 2rem;
+}
+
+/* Title and Instructor */
+.course-title {
     margin-bottom: 0.5rem;
-  }
-  
-  .course-instructor {
+}
+
+.course-instructor {
     font-size: 1.1rem;
     color: #555;
     margin-bottom: 1rem;
-  }
-  
-  /* Course Meta: rating, modules, update date */
-  .course-meta {
+}
+
+/* Course Meta: rating, modules, update date */
+.course-meta {
     display: flex;
     align-items: center;
     gap: 1rem;
     color: #666;
     margin-bottom: 1rem;
-  }
-  
-  .rating-value {
+}
+
+.rating-value {
     font-weight: bold;
     margin-right: 0.2rem;
-  }
-  
-  .enroll-btn {
+}
+
+/* Enroll button */
+.enroll-btn {
     background-color: #6441a5;
     color: #fff;
     border: none;
@@ -76,47 +98,61 @@
     font-size: 1rem;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  .enroll-btn:hover {
+}
+
+.enroll-btn:hover {
     background-color: #532f8c;
-  }
-  
-  /* Main content below header: two columns side by side */
-  .course-content {
+}
+
+/* Go to Course button */
+.go-to-course-btn {
+    background-color: white;
+    color: #532f8c;
+    border: 2px solid #532f8c;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.go-to-course-btn:hover {
+    background-color: #dbdbdb;
+}
+
+/* Main content below header: two columns side by side */
+.course-content {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap; /* Wrap on smaller screens */
-  }
-  
-  .what-you-will-learn,
-  .who-should-enroll {
+}
+
+.what-you-will-learn,
+.who-should-enroll {
     flex: 1 1 45%; /* Each box ~45% width on large screens */
     background-color: #fff;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
-  }
+}
 
-  .detail-cover-img {
+.detail-cover-img {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
     object-fit: cover;
-  }
-  
-  
-  /* Titles inside the boxes */
-  .what-you-will-learn h2,
-  .who-should-enroll h2 {
+}
+
+/* Titles inside the boxes */
+.what-you-will-learn h2,
+.who-should-enroll h2 {
     margin-bottom: 1rem;
-  }
-  
-  /* Optional: Adjust list styles */
-  .what-you-will-learn ul,
-  .who-should-enroll ul {
+}
+
+/* Optional: Adjust list styles */
+.what-you-will-learn ul,
+.who-should-enroll ul {
     list-style: disc;
     margin-left: 1.5rem;
     line-height: 1.6;
-  }
-  
+}

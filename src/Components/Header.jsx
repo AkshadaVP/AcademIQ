@@ -1,5 +1,5 @@
-import React from 'react';
-import SearchIcon from "../assets/Search-icon.png";
+import React from "react";
+import SearchBar from "./SearchBar";
 import HeaderImg from "../assets/HeaderImg.png";
 import "./Header.css";
 
@@ -16,21 +16,13 @@ const Header = () => {
           Upgrade your skills with expert-led courses & hands-on learning.
         </p>
         <div className="searchandsignup">
-          <div className="search-container">
-            <input id="search-input" type="text" placeholder="Explore Courses" />
-            <img className="Search-icon" src={SearchIcon} alt="Search-icon" />
-          </div>
+          <SearchBar placeholder="Explore Courses" />
           <button id="signup-button">Sign Up</button>
         </div>
       </div>
-
       {/* Right Side Image */}
-
-        <img className="header-img" src={HeaderImg} alt="header-img" />
-
-
+      <img className="header-img" src={HeaderImg} alt="header-img" />
     </div>
-
   );
 };
 

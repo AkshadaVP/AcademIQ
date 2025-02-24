@@ -1,28 +1,19 @@
-import React, { useState } from 'react'
-import './NoLearningHeader.css'
-import Navbar from './Navbar';
-import NoLearningImg from '../assets/NoHeaderImg.png'
-import SearchIcon from '../assets/Search-icon.png'
+import React from "react";
+import "./NoLearningHeader.css";
+import NoLearningImg from "../assets/NoHeaderImg.png";
+import SearchBar from "./SearchBar";
 
 const NoLearningHeader = () => {
-  const [activeTab, setActiveTab] = useState("inProgress"); // State to track active tab
-
   return (
-    <>
-    <Navbar/>
-    <div className='main-container'>
-       <img src={NoLearningImg} alt="NoLearningImg" />
-       <div>
-      <p>Get Certified &<br /> Boost your Career</p>
-      <div className="search-container">
-            <input id="search-input" type="text" placeholder="Explore Courses" />
-            <img className="Search-icon" src={SearchIcon} alt="Search-icon" />
-          </div>
+    <div className="main-container">
+      <img src={NoLearningImg} alt="NoLearningImg" />
+      <div>
+        <p>
+          Get Certified &<br /> Boost your Career
+        </p>
+        <SearchBar placeholder="Explore Courses" />
       </div>
-
-
     </div>
-    </>
   );
 };
 

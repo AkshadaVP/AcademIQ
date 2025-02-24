@@ -1,5 +1,5 @@
 [
-    {
+  {
       "id": 1,
       "title": "Fundamentals of Artificial Intelligence",
       "coverImage": "../assets/CourseCoverImg/1.jpeg",
@@ -8,15 +8,39 @@
       "instructor": "Prof. Alok Bhoye",
       "rating": 4.0,
       "lastUpdated": "12 February 2025",
+      "category": "Data Science",
       "modules": [
-        { "moduleTitle": "Module 1: Introduction", "moduleDescription": "Overview of AI concepts." },
-        { "moduleTitle": "Module 2: Data Science Basics", "moduleDescription": "Fundamentals of data science." },
-        { "moduleTitle": "Module 3: Machine Learning", "moduleDescription": "Basics of ML algorithms." },
-        { "moduleTitle": "Module 4: Deep Learning", "moduleDescription": "Introduction to neural networks." },
-        { "moduleTitle": "Module 5: Applications", "moduleDescription": "Real-world AI applications." }
+          {
+              "moduleTitle": "Introduction to AI",
+              "moduleDescription": "Overview of AI concepts.",
+              "content": "Introduction to AI, history, key milestones, and branches. Discuss the Turing test, symbolic AI, statistical AI, and modern deep learning approaches.",
+              "examples": [
+                  "Google's AlphaGo",
+                  "Self-driving cars",
+                  "NLP models like GPT"
+              ],
+              "keyTakeaways": [
+                  "Understanding AI basics",
+                  "AI applications across industries"
+              ]
+          },
+          {
+              "moduleTitle": "Data Science Basics",
+              "moduleDescription": "Fundamentals of data science.",
+              "content": "Role of data science in AI, fundamental techniques. Supervised vs. unsupervised learning, data preprocessing, feature engineering.",
+              "examples": [
+                  "Kaggle competitions",
+                  "Fraud detection",
+                  "Recommendation systems"
+              ],
+              "keyTakeaways": [
+                  "Handling data for AI applications",
+                  "Basic techniques in data science"
+              ]
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 2,
       "title": "Web Development with React",
       "coverImage": "../assets/CourseCoverImg/2.jpeg",
@@ -25,15 +49,34 @@
       "instructor": "Ms. Jane Doe",
       "rating": 4.5,
       "lastUpdated": "05 March 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: React Basics", "moduleDescription": "Understanding components and JSX." },
-        { "moduleTitle": "Module 2: State & Props", "moduleDescription": "Managing state and passing data." },
-        { "moduleTitle": "Module 3: Routing", "moduleDescription": "Implementing navigation with React Router." },
-        { "moduleTitle": "Module 4: Hooks", "moduleDescription": "Using useState, useEffect, etc." },
-        { "moduleTitle": "Module 5: Advanced Concepts", "moduleDescription": "Context API and performance optimizations." }
+          {
+              "moduleTitle": "React Basics",
+              "moduleDescription": "Understanding components and JSX.",
+              "content": "Introduction to React and its component-based architecture. JSX, props, state, and component lifecycle.",
+              "examples": [
+                  "Building a basic to-do list app"
+              ],
+              "keyTakeaways": [
+                  "Core principles of React",
+                  "Understanding JSX and components"
+              ]
+          },
+          {
+              "moduleTitle": "State & Props",
+              "moduleDescription": "Managing state in React applications.",
+              "content": "Local state, lifting state up, using props efficiently.",
+              "examples": [
+                  "User authentication state in an app"
+              ],
+              "keyTakeaways": [
+                  "Efficient state and prop management"
+              ]
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 3,
       "title": "Introduction to Machine Learning",
       "coverImage": "../assets/CourseCoverImg/3.jpeg",
@@ -42,15 +85,36 @@
       "instructor": "Dr. John Smith",
       "rating": 4.3,
       "lastUpdated": "22 January 2025",
+      "category": "Data Science",
       "modules": [
-        { "moduleTitle": "Module 1: Overview", "moduleDescription": "What is machine learning?" },
-        { "moduleTitle": "Module 2: Supervised Learning", "moduleDescription": "Regression and classification basics." },
-        { "moduleTitle": "Module 3: Unsupervised Learning", "moduleDescription": "Clustering and dimensionality reduction." },
-        { "moduleTitle": "Module 4: Model Evaluation", "moduleDescription": "Metrics and validation techniques." },
-        { "moduleTitle": "Module 5: Case Studies", "moduleDescription": "Real-world applications of ML." }
+          {
+              "moduleTitle": "Overview of ML",
+              "moduleDescription": "What is ML and why it matters.",
+              "content": "Supervised, unsupervised, reinforcement learning.",
+              "examples": [
+                  "Netflix recommendations",
+                  "Spam detection"
+              ],
+              "keyTakeaways": [
+                  "Fundamentals of ML",
+                  "Types of learning"
+              ]
+          },
+          {
+              "moduleTitle": "Supervised Learning",
+              "moduleDescription": "Learning from labeled data.",
+              "content": "Linear regression, logistic regression, decision trees.",
+              "examples": [
+                  "Credit scoring",
+                  "Email classification"
+              ],
+              "keyTakeaways": [
+                  "How supervised learning models work"
+              ]
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 4,
       "title": "Advanced React Techniques",
       "coverImage": "../assets/CourseCoverImg/4.jpeg",
@@ -59,15 +123,33 @@
       "instructor": "Mr. Alex Johnson",
       "rating": 4.7,
       "lastUpdated": "10 February 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: Performance Optimization", "moduleDescription": "Improving component performance." },
-        { "moduleTitle": "Module 2: Code Splitting", "moduleDescription": "Lazy loading components." },
-        { "moduleTitle": "Module 3: Custom Hooks", "moduleDescription": "Creating reusable logic." },
-        { "moduleTitle": "Module 4: State Management", "moduleDescription": "Redux vs Context API." },
-        { "moduleTitle": "Module 5: Testing", "moduleDescription": "Testing components with Jest." }
+          {
+              "moduleTitle": "Performance Optimization",
+              "moduleDescription": "Improving React performance.",
+              "content": "Code splitting, lazy loading, React Profiler.",
+              "examples": [
+                  "Reducing render time for large apps"
+              ],
+              "keyTakeaways": [
+                  "Optimizing React applications"
+              ]
+          },
+          {
+              "moduleTitle": "Code Splitting",
+              "moduleDescription": "Reducing bundle sizes.",
+              "content": "`React.lazy()`, dynamic imports.",
+              "examples": [
+                  "Loading components on demand"
+              ],
+              "keyTakeaways": [
+                  "Optimizing for fast-loading apps"
+              ]
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 5,
       "title": "Data Visualization with D3.js",
       "coverImage": "../assets/CourseCoverImg/5.jpeg",
@@ -76,15 +158,33 @@
       "instructor": "Ms. Emily Turner",
       "rating": 4.2,
       "lastUpdated": "30 December 2024",
+      "category": "Data Science",
       "modules": [
-        { "moduleTitle": "Module 1: Introduction to D3", "moduleDescription": "Setting up D3.js." },
-        { "moduleTitle": "Module 2: Data Binding", "moduleDescription": "Linking data to DOM elements." },
-        { "moduleTitle": "Module 3: Scales and Axes", "moduleDescription": "Mapping data values to visual dimensions." },
-        { "moduleTitle": "Module 4: Animations", "moduleDescription": "Animating charts and transitions." },
-        { "moduleTitle": "Module 5: Advanced Visualizations", "moduleDescription": "Creating interactive dashboards." }
+          {
+              "moduleTitle": "Introduction to D3",
+              "moduleDescription": "What is D3 and why use it?",
+              "content": "Data-driven documents, working with SVG.",
+              "examples": [
+                  "Creating a basic bar chart"
+              ],
+              "keyTakeaways": [
+                  "Understanding D3 basics"
+              ]
+          },
+          {
+              "moduleTitle": "Data Binding",
+              "moduleDescription": "Mapping data to DOM elements.",
+              "content": "Enter, update, exit pattern.",
+              "examples": [
+                  "Building a pie chart with D3"
+              ],
+              "keyTakeaways": [
+                  "Manipulating data with D3"
+              ]
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 6,
       "title": "Python for Data Science",
       "coverImage": "../assets/CourseCoverImg/6.jpeg",
@@ -93,15 +193,36 @@
       "instructor": "Dr. Linda Miller",
       "rating": 4.6,
       "lastUpdated": "15 March 2025",
+      "category": "Data Science",
       "modules": [
-        { "moduleTitle": "Module 1: Python Basics", "moduleDescription": "Introduction to Python programming." },
-        { "moduleTitle": "Module 2: Data Analysis", "moduleDescription": "Using pandas and NumPy." },
-        { "moduleTitle": "Module 3: Data Visualization", "moduleDescription": "Matplotlib and Seaborn." },
-        { "moduleTitle": "Module 4: Machine Learning", "moduleDescription": "Scikit-learn basics." },
-        { "moduleTitle": "Module 5: Project Work", "moduleDescription": "Hands-on data science project." }
+          {
+              "moduleTitle": "Module 1: Python Basics",
+              "moduleDescription": "Introduction to Python programming.",
+              "content": "This module covers the syntax and fundamental programming constructs of Python, including variables, data types, loops, functions, and error handling."
+          },
+          {
+              "moduleTitle": "Module 2: Data Analysis",
+              "moduleDescription": "Using pandas and NumPy.",
+              "content": "Learn how to manipulate and analyze large datasets using pandas for dataframes and NumPy for numerical computations."
+          },
+          {
+              "moduleTitle": "Module 3: Data Visualization",
+              "moduleDescription": "Matplotlib and Seaborn.",
+              "content": "Explore how to create compelling visual representations of data using libraries like Matplotlib and Seaborn."
+          },
+          {
+              "moduleTitle": "Module 4: Machine Learning",
+              "moduleDescription": "Scikit-learn basics.",
+              "content": "Introduction to supervised and unsupervised learning, including linear regression, classification, clustering, and feature engineering."
+          },
+          {
+              "moduleTitle": "Module 5: Project Work",
+              "moduleDescription": "Hands-on data science project.",
+              "content": "Apply your learning by working on a data science project, from data cleaning to model training and evaluation."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 7,
       "title": "Full-Stack Web Development",
       "coverImage": "../assets/CourseCoverImg/7.jpeg",
@@ -110,15 +231,36 @@
       "instructor": "Mr. Robert Brown",
       "rating": 4.8,
       "lastUpdated": "01 April 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: HTML & CSS", "moduleDescription": "Building the front-end." },
-        { "moduleTitle": "Module 2: JavaScript Basics", "moduleDescription": "Dynamic behavior on the web." },
-        { "moduleTitle": "Module 3: React.js", "moduleDescription": "Modern front-end framework." },
-        { "moduleTitle": "Module 4: Node.js & Express", "moduleDescription": "Backend development." },
-        { "moduleTitle": "Module 5: MongoDB", "moduleDescription": "Database management." }
+          {
+              "moduleTitle": "Module 1: HTML & CSS",
+              "moduleDescription": "Building the front-end.",
+              "content": "Covers HTML structure, semantic elements, and CSS styling techniques including Flexbox and Grid."
+          },
+          {
+              "moduleTitle": "Module 2: JavaScript Basics",
+              "moduleDescription": "Dynamic behavior on the web.",
+              "content": "Introduction to JavaScript ES6+, covering DOM manipulation, event handling, and asynchronous programming."
+          },
+          {
+              "moduleTitle": "Module 3: React.js",
+              "moduleDescription": "Modern front-end framework.",
+              "content": "Fundamentals of React, including components, state management, hooks, and routing."
+          },
+          {
+              "moduleTitle": "Module 4: Node.js & Express",
+              "moduleDescription": "Backend development.",
+              "content": "Covers setting up a Node.js server, creating REST APIs using Express.js, and handling authentication."
+          },
+          {
+              "moduleTitle": "Module 5: MongoDB",
+              "moduleDescription": "Database management.",
+              "content": "Introduction to MongoDB, creating schemas, performing CRUD operations, and integrating with a backend."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 8,
       "title": "UI/UX Design Essentials",
       "coverImage": "../assets/CourseCoverImg/8.jpeg",
@@ -127,15 +269,36 @@
       "instructor": "Ms. Sarah Lee",
       "rating": 4.4,
       "lastUpdated": "20 February 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: Design Basics", "moduleDescription": "Principles of design." },
-        { "moduleTitle": "Module 2: User Research", "moduleDescription": "Understanding user needs." },
-        { "moduleTitle": "Module 3: Wireframing", "moduleDescription": "Sketching interface ideas." },
-        { "moduleTitle": "Module 4: Prototyping", "moduleDescription": "Building interactive prototypes." },
-        { "moduleTitle": "Module 5: Usability Testing", "moduleDescription": "Testing designs with users." }
+          {
+              "moduleTitle": "Module 1: Design Basics",
+              "moduleDescription": "Principles of design.",
+              "content": "Introduction to design principles including color theory, typography, and layout design."
+          },
+          {
+              "moduleTitle": "Module 2: User Research",
+              "moduleDescription": "Understanding user needs.",
+              "content": "Learn how to conduct user research through surveys, interviews, and usability testing."
+          },
+          {
+              "moduleTitle": "Module 3: Wireframing",
+              "moduleDescription": "Sketching interface ideas.",
+              "content": "Creating low-fidelity wireframes using tools like Figma and Adobe XD."
+          },
+          {
+              "moduleTitle": "Module 4: Prototyping",
+              "moduleDescription": "Building interactive prototypes.",
+              "content": "Developing high-fidelity prototypes and using design systems for consistency."
+          },
+          {
+              "moduleTitle": "Module 5: Usability Testing",
+              "moduleDescription": "Testing designs with users.",
+              "content": "Analyzing usability tests to improve user experience and accessibility."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 9,
       "title": "Mobile App Development - React",
       "coverImage": "../assets/CourseCoverImg/9.jpeg",
@@ -144,15 +307,36 @@
       "instructor": "Mr. Kevin White",
       "rating": 4.5,
       "lastUpdated": "10 March 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: React Native Basics", "moduleDescription": "Setting up the environment." },
-        { "moduleTitle": "Module 2: Components and Navigation", "moduleDescription": "Building UI and navigation." },
-        { "moduleTitle": "Module 3: State Management", "moduleDescription": "Using hooks and context." },
-        { "moduleTitle": "Module 4: Styling", "moduleDescription": "Applying styles in React Native." },
-        { "moduleTitle": "Module 5: Deployment", "moduleDescription": "Publishing your app." }
+          {
+              "moduleTitle": "Module 1: React Native Basics",
+              "moduleDescription": "Setting up the environment.",
+              "content": "Learn how to set up React Native with Expo and understand the component structure."
+          },
+          {
+              "moduleTitle": "Module 2: Components and Navigation",
+              "moduleDescription": "Building UI and navigation.",
+              "content": "Creating reusable components and implementing navigation using React Navigation."
+          },
+          {
+              "moduleTitle": "Module 3: State Management",
+              "moduleDescription": "Using hooks and context.",
+              "content": "Learn about state management using React Context API and Redux."
+          },
+          {
+              "moduleTitle": "Module 4: Styling",
+              "moduleDescription": "Applying styles in React Native.",
+              "content": "Best practices for styling using StyleSheet API and libraries like Styled Components."
+          },
+          {
+              "moduleTitle": "Module 5: Deployment",
+              "moduleDescription": "Publishing your app.",
+              "content": "How to build, test, and publish your mobile application to App Store and Google Play."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 10,
       "title": "Introduction to Cloud Computing",
       "coverImage": "../assets/CourseCoverImg/10.jpeg",
@@ -161,49 +345,150 @@
       "instructor": "Dr. Emily Clark",
       "rating": 4.3,
       "lastUpdated": "05 February 2025",
+      "category": "Technology",
       "modules": [
-        { "moduleTitle": "Module 1: Cloud Fundamentals", "moduleDescription": "Understanding cloud concepts." },
-        { "moduleTitle": "Module 2: AWS Basics", "moduleDescription": "Introduction to Amazon Web Services." },
-        { "moduleTitle": "Module 3: Azure Overview", "moduleDescription": "Basics of Microsoft Azure." },
-        { "moduleTitle": "Module 4: Cloud Security", "moduleDescription": "Security best practices." },
-        { "moduleTitle": "Module 5: Cloud Deployment", "moduleDescription": "Deploying applications on the cloud." }
+          {
+              "moduleTitle": "Module 1: Cloud Fundamentals",
+              "moduleDescription": "Understanding cloud concepts.",
+              "content": "Introduction to cloud computing, its advantages, and deployment models (Public, Private, Hybrid)."
+          },
+          {
+              "moduleTitle": "Module 2: AWS Basics",
+              "moduleDescription": "Introduction to Amazon Web Services.",
+              "content": "Overview of AWS services like EC2, S3, Lambda, and IAM for managing cloud resources."
+          },
+          {
+              "moduleTitle": "Module 3: Azure Overview",
+              "moduleDescription": "Basics of Microsoft Azure.",
+              "content": "Understanding Azure cloud infrastructure, virtual machines, and Azure Functions."
+          },
+          {
+              "moduleTitle": "Module 4: Cloud Security",
+              "moduleDescription": "Security best practices.",
+              "content": "Securing cloud applications using IAM, encryption, and compliance best practices."
+          },
+          {
+              "moduleTitle": "Module 5: Cloud Deployment",
+              "moduleDescription": "Deploying applications on the cloud.",
+              "content": "Best practices for deploying scalable applications on AWS and Azure."
+          }
       ]
-    },
-    {
-      "id": 11,
-      "title": "Digital Marketing 101 Full Course",
-      "coverImage": "../assets/CourseCoverImg/11.jpeg",
-      "duration": "16 Hours",
-      "description": "Learn digital marketing strategies and tools to grow your business online.",
-      "instructor": "Ms. Laura Green",
-      "rating": 4.1,
-      "lastUpdated": "18 January 2025",
-      "modules": [
-        { "moduleTitle": "Module 1: Introduction to Digital Marketing", "moduleDescription": "Overview of digital marketing." },
-        { "moduleTitle": "Module 2: SEO Basics", "moduleDescription": "Understanding search engine optimization." },
-        { "moduleTitle": "Module 3: Social Media Marketing", "moduleDescription": "Leveraging social platforms." },
-        { "moduleTitle": "Module 4: Content Marketing", "moduleDescription": "Creating engaging content." },
-        { "moduleTitle": "Module 5: Analytics", "moduleDescription": "Measuring performance." }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Cybersecurity Essentials",
-      "coverImage": "../assets/CourseCoverImg/12.jpeg",
-      "duration": "24 Hours",
-      "description": "Learn the fundamentals of cybersecurity and best practices to protect data.",
-      "instructor": "Mr. David King",
+  },
+  {
+      "id": 6,
+      "title": "Python for Data Science",
+      "coverImage": "../assets/CourseCoverImg/6.jpeg",
+      "duration": "30 Hours",
+      "description": "Master Python for data analysis, visualization, and machine learning.",
+      "instructor": "Dr. Linda Miller",
       "rating": 4.6,
-      "lastUpdated": "12 March 2025",
+      "lastUpdated": "15 March 2025",
+      "category": "Data Science",
       "modules": [
-        { "moduleTitle": "Module 1: Cybersecurity Basics", "moduleDescription": "Understanding cybersecurity threats." },
-        { "moduleTitle": "Module 2: Network Security", "moduleDescription": "Securing network infrastructures." },
-        { "moduleTitle": "Module 3: Application Security", "moduleDescription": "Best practices in software security." },
-        { "moduleTitle": "Module 4: Data Protection", "moduleDescription": "Techniques to safeguard data." },
-        { "moduleTitle": "Module 5: Incident Response", "moduleDescription": "Handling security breaches." }
+          {
+              "moduleTitle": "Module 1: Python Basics",
+              "moduleDescription": "Introduction to Python programming.",
+              "content": "This module covers the fundamentals of Python programming, including syntax, data types, control structures, and functions. You will learn how to write and execute Python programs and understand its powerful libraries."
+          },
+          {
+              "moduleTitle": "Module 2: Data Analysis",
+              "moduleDescription": "Using pandas and NumPy.",
+              "content": "Learn how to work with datasets using pandas and NumPy. You will explore data structures, perform data cleaning, and manipulate data effectively for analysis."
+          },
+          {
+              "moduleTitle": "Module 3: Data Visualization",
+              "moduleDescription": "Matplotlib and Seaborn.",
+              "content": "Understand the importance of data visualization in analytics. Learn how to create various charts, graphs, and heatmaps using Matplotlib and Seaborn to represent data effectively."
+          },
+          {
+              "moduleTitle": "Module 4: Machine Learning",
+              "moduleDescription": "Scikit-learn basics.",
+              "content": "Get an introduction to machine learning concepts and implement basic models using Scikit-learn. Learn about regression, classification, clustering, and model evaluation."
+          },
+          {
+              "moduleTitle": "Module 5: Project Work",
+              "moduleDescription": "Hands-on data science project.",
+              "content": "Apply the skills you've learned in a real-world project. Work on data cleaning, analysis, visualization, and model building to derive insights and predictions from data."
+          }
       ]
-    },
-    {
+  },
+  {
+      "id": 7,
+      "title": "Full-Stack Web Development",
+      "coverImage": "../assets/CourseCoverImg/7.jpeg",
+      "duration": "40 Hours",
+      "description": "Become a full-stack developer using MERN stack.",
+      "instructor": "Mr. Robert Brown",
+      "rating": 4.8,
+      "lastUpdated": "01 April 2025",
+      "category": "Web Development",
+      "modules": [
+          {
+              "moduleTitle": "Module 1: HTML & CSS",
+              "moduleDescription": "Building the front-end.",
+              "content": "Understand the basics of HTML and CSS. Learn about semantic markup, responsive design, CSS Flexbox, and Grid to build structured and visually appealing web pages."
+          },
+          {
+              "moduleTitle": "Module 2: JavaScript Basics",
+              "moduleDescription": "Dynamic behavior on the web.",
+              "content": "Get familiar with JavaScript, its syntax, and how it enhances interactivity on web pages. Learn about ES6 features, event handling, and DOM manipulation."
+          },
+          {
+              "moduleTitle": "Module 3: React.js",
+              "moduleDescription": "Modern front-end framework.",
+              "content": "Learn React.js to build dynamic and scalable front-end applications. Understand components, state management, hooks, and lifecycle methods."
+          },
+          {
+              "moduleTitle": "Module 4: Node.js & Express",
+              "moduleDescription": "Backend development.",
+              "content": "Explore server-side development using Node.js and Express.js. Learn about RESTful APIs, middleware, authentication, and database integration."
+          },
+          {
+              "moduleTitle": "Module 5: MongoDB",
+              "moduleDescription": "Database management.",
+              "content": "Learn how to use MongoDB as a NoSQL database for managing web applications. Understand schema design, CRUD operations, and aggregation."
+          }
+      ]
+  },
+  {
+      "id": 8,
+      "title": "UI/UX Design Essentials",
+      "coverImage": "../assets/CourseCoverImg/8.jpeg",
+      "duration": "18 Hours",
+      "description": "Learn the principles of UI/UX design and how to create user-friendly interfaces.",
+      "instructor": "Ms. Sarah Lee",
+      "rating": 4.4,
+      "lastUpdated": "20 February 2025",
+      "category": "Web Development",
+      "modules": [
+          {
+              "moduleTitle": "Module 1: Design Basics",
+              "moduleDescription": "Principles of design.",
+              "content": "Understand the fundamentals of UI/UX design, including color theory, typography, contrast, and consistency in user interfaces."
+          },
+          {
+              "moduleTitle": "Module 2: User Research",
+              "moduleDescription": "Understanding user needs.",
+              "content": "Learn how to conduct user research through surveys, interviews, and usability testing. Understand how to gather insights and improve designs."
+          },
+          {
+              "moduleTitle": "Module 3: Wireframing",
+              "moduleDescription": "Sketching interface ideas.",
+              "content": "Create wireframes using tools like Figma or Adobe XD. Understand the importance of layout structure and user flow in web and mobile applications."
+          },
+          {
+              "moduleTitle": "Module 4: Prototyping",
+              "moduleDescription": "Building interactive prototypes.",
+              "content": "Design and build interactive prototypes using software tools. Learn how to create high-fidelity designs for better user experience testing."
+          },
+          {
+              "moduleTitle": "Module 5: Usability Testing",
+              "moduleDescription": "Testing designs with users.",
+              "content": "Understand usability testing techniques to evaluate the effectiveness of your designs. Learn how to gather feedback and make improvements."
+          }
+      ]
+  },
+  {
       "id": 13,
       "title": "DevOps for Beginners Full Course",
       "coverImage": "../assets/CourseCoverImg/13.jpeg",
@@ -212,15 +497,36 @@
       "instructor": "Ms. Fiona Scott",
       "rating": 4.2,
       "lastUpdated": "08 February 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: Introduction to DevOps", "moduleDescription": "What is DevOps?" },
-        { "moduleTitle": "Module 2: Continuous Integration", "moduleDescription": "Basics of CI pipelines." },
-        { "moduleTitle": "Module 3: Continuous Deployment", "moduleDescription": "Automating deployments." },
-        { "moduleTitle": "Module 4: Containerization", "moduleDescription": "Using Docker and Kubernetes." },
-        { "moduleTitle": "Module 5: Monitoring & Logging", "moduleDescription": "Keeping track of applications." }
+          {
+              "moduleTitle": "Module 1: Introduction to DevOps",
+              "moduleDescription": "What is DevOps? Learn the importance of DevOps in modern software development.",
+              "content": "This module introduces DevOps, explaining how it bridges the gap between development and operations. Key topics include Agile methodologies, automation, and CI/CD principles."
+          },
+          {
+              "moduleTitle": "Module 2: Continuous Integration",
+              "moduleDescription": "Basics of CI pipelines.",
+              "content": "Learn about Continuous Integration (CI), the process of merging code changes frequently. Topics include Jenkins, GitHub Actions, and best practices for automated testing."
+          },
+          {
+              "moduleTitle": "Module 3: Continuous Deployment",
+              "moduleDescription": "Automating deployments.",
+              "content": "This module covers Continuous Deployment (CD), automating software releases. Learn about Kubernetes, Docker, and cloud deployment strategies."
+          },
+          {
+              "moduleTitle": "Module 4: Containerization",
+              "moduleDescription": "Using Docker and Kubernetes.",
+              "content": "Explore how containers work, the difference between virtual machines and containers, and an introduction to Docker and Kubernetes for managing containerized applications."
+          },
+          {
+              "moduleTitle": "Module 5: Monitoring & Logging",
+              "moduleDescription": "Keeping track of applications.",
+              "content": "Learn about observability in DevOps, using tools like Prometheus, Grafana, and ELK stack for monitoring logs, metrics, and performance."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 14,
       "title": "Introduction to Blockchain",
       "coverImage": "../assets/CourseCoverImg/14.jpeg",
@@ -229,15 +535,36 @@
       "instructor": "Mr. Samuel Carter",
       "rating": 4.0,
       "lastUpdated": "25 January 2025",
+      "category": "Technology",
       "modules": [
-        { "moduleTitle": "Module 1: Blockchain Basics", "moduleDescription": "What is blockchain?" },
-        { "moduleTitle": "Module 2: Cryptography", "moduleDescription": "Foundations of secure transactions." },
-        { "moduleTitle": "Module 3: Decentralization", "moduleDescription": "How decentralization works." },
-        { "moduleTitle": "Module 4: Smart Contracts", "moduleDescription": "Automating agreements." },
-        { "moduleTitle": "Module 5: Blockchain Use Cases", "moduleDescription": "Real-world applications." }
+          {
+              "moduleTitle": "Module 1: Blockchain Basics",
+              "moduleDescription": "What is blockchain?",
+              "content": "This module explains what blockchain is, its structure, and why it's considered secure. Learn about decentralization and the fundamentals of distributed ledgers."
+          },
+          {
+              "moduleTitle": "Module 2: Cryptography",
+              "moduleDescription": "Foundations of secure transactions.",
+              "content": "Understand how cryptographic techniques like hashing, digital signatures, and public-private keys are used to secure blockchain transactions."
+          },
+          {
+              "moduleTitle": "Module 3: Decentralization",
+              "moduleDescription": "How decentralization works.",
+              "content": "Learn about decentralized networks, how they work, and the advantages they offer over traditional centralized systems."
+          },
+          {
+              "moduleTitle": "Module 4: Smart Contracts",
+              "moduleDescription": "Automating agreements.",
+              "content": "Discover smart contracts, how they work, and how they eliminate intermediaries. Explore Ethereum and Solidity programming for smart contracts."
+          },
+          {
+              "moduleTitle": "Module 5: Blockchain Use Cases",
+              "moduleDescription": "Real-world applications.",
+              "content": "Explore how blockchain is transforming industries like finance, supply chain, healthcare, and digital identity management."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 15,
       "title": "Introduction to SEO",
       "coverImage": "../assets/CourseCoverImg/15.jpeg",
@@ -246,15 +573,36 @@
       "instructor": "Ms. Rebecca Adams",
       "rating": 4.3,
       "lastUpdated": "05 January 2025",
+      "category": "Technology",
       "modules": [
-        { "moduleTitle": "Module 1: SEO Fundamentals", "moduleDescription": "Basics of SEO." },
-        { "moduleTitle": "Module 2: Keyword Research", "moduleDescription": "Finding the right keywords." },
-        { "moduleTitle": "Module 3: On-Page SEO", "moduleDescription": "Optimizing your website." },
-        { "moduleTitle": "Module 4: Off-Page SEO", "moduleDescription": "Building quality backlinks." },
-        { "moduleTitle": "Module 5: SEO Tools", "moduleDescription": "Tools and analytics for SEO." }
+          {
+              "moduleTitle": "Module 1: SEO Fundamentals",
+              "moduleDescription": "Basics of SEO.",
+              "content": "Understand how search engines work, the importance of SEO, and how websites are ranked using different factors like relevance and authority."
+          },
+          {
+              "moduleTitle": "Module 2: Keyword Research",
+              "moduleDescription": "Finding the right keywords.",
+              "content": "Learn how to find the best keywords using tools like Google Keyword Planner, Ahrefs, and SEMrush for optimizing content."
+          },
+          {
+              "moduleTitle": "Module 3: On-Page SEO",
+              "moduleDescription": "Optimizing your website.",
+              "content": "This module covers title tags, meta descriptions, headers, and keyword optimization for improving page rankings."
+          },
+          {
+              "moduleTitle": "Module 4: Off-Page SEO",
+              "moduleDescription": "Building quality backlinks.",
+              "content": "Learn about link building, guest posting, and social signals that help improve website authority."
+          },
+          {
+              "moduleTitle": "Module 5: SEO Tools",
+              "moduleDescription": "Tools and analytics for SEO.",
+              "content": "Understand how to use SEO tools like Google Analytics, Search Console, and Moz for performance tracking."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 16,
       "title": "JavaScript Essentials Full Course",
       "coverImage": "../assets/CourseCoverImg/16.jpeg",
@@ -263,15 +611,74 @@
       "instructor": "Mr. Michael Lee",
       "rating": 4.5,
       "lastUpdated": "12 February 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: JavaScript Basics", "moduleDescription": "Syntax and fundamentals." },
-        { "moduleTitle": "Module 2: DOM Manipulation", "moduleDescription": "Interacting with web pages." },
-        { "moduleTitle": "Module 3: ES6 Features", "moduleDescription": "Modern JavaScript improvements." },
-        { "moduleTitle": "Module 4: Asynchronous JS", "moduleDescription": "Promises, async/await." },
-        { "moduleTitle": "Module 5: JavaScript in Practice", "moduleDescription": "Building projects with JS." }
+          {
+              "moduleTitle": "Module 1: JavaScript Basics",
+              "moduleDescription": "Syntax and fundamentals.",
+              "content": "Learn the basics of JavaScript syntax, data types, variables, and operators, and how to write and execute JavaScript code."
+          },
+          {
+              "moduleTitle": "Module 2: DOM Manipulation",
+              "moduleDescription": "Interacting with web pages.",
+              "content": "Understand how to manipulate HTML elements using JavaScript with methods like getElementById, querySelector, and event listeners."
+          },
+          {
+              "moduleTitle": "Module 3: ES6 Features",
+              "moduleDescription": "Modern JavaScript improvements.",
+              "content": "Explore ES6 features such as arrow functions, template literals, spread/rest operators, destructuring, and promises."
+          },
+          {
+              "moduleTitle": "Module 4: Asynchronous JS",
+              "moduleDescription": "Promises, async/await.",
+              "content": "Learn how asynchronous programming works in JavaScript using callbacks, promises, and async/await."
+          },
+          {
+              "moduleTitle": "Module 5: JavaScript in Practice",
+              "moduleDescription": "Building projects with JS.",
+              "content": "Work on real-world projects like a to-do app, weather application, and interactive forms."
+          }
       ]
-    },
-    {
+  },
+  {
+      "id": 16,
+      "title": "JavaScript Essentials Full Course",
+      "coverImage": "../assets/CourseCoverImg/16.jpeg",
+      "duration": "20 Hours",
+      "description": "Master JavaScript, the foundation of modern web development.",
+      "instructor": "Mr. Michael Lee",
+      "rating": 4.5,
+      "lastUpdated": "12 February 2025",
+      "category": "Web Development",
+      "modules": [
+          {
+              "moduleTitle": "Module 1: JavaScript Basics",
+              "moduleDescription": "Syntax and fundamentals.",
+              "content": "This module covers JavaScript syntax, variables, data types, and operators. It introduces control structures like loops and conditionals, along with functions and scope."
+          },
+          {
+              "moduleTitle": "Module 2: DOM Manipulation",
+              "moduleDescription": "Interacting with web pages.",
+              "content": "Learn how to manipulate the Document Object Model (DOM) using JavaScript. Topics include selecting elements, handling events, modifying styles, and dynamic content updates."
+          },
+          {
+              "moduleTitle": "Module 3: ES6 Features",
+              "moduleDescription": "Modern JavaScript improvements.",
+              "content": "Explore ES6+ features such as let and const, template literals, arrow functions, destructuring, spread/rest operators, and promises."
+          },
+          {
+              "moduleTitle": "Module 4: Asynchronous JS",
+              "moduleDescription": "Promises, async/await.",
+              "content": "Understand asynchronous programming in JavaScript using callbacks, promises, and async/await to handle API calls and asynchronous operations efficiently."
+          },
+          {
+              "moduleTitle": "Module 5: JavaScript in Practice",
+              "moduleDescription": "Building projects with JS.",
+              "content": "Apply JavaScript concepts by building a small project such as a to-do list, weather app, or interactive webpage with event listeners and API integration."
+          }
+      ]
+  },
+  {
       "id": 17,
       "title": "React Native Fundamentals",
       "coverImage": "../assets/CourseCoverImg/17.jpeg",
@@ -280,15 +687,36 @@
       "instructor": "Ms. Karen Wilson",
       "rating": 4.4,
       "lastUpdated": "17 March 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: React Native Setup", "moduleDescription": "Setting up the environment." },
-        { "moduleTitle": "Module 2: Building Components", "moduleDescription": "Core components of React Native." },
-        { "moduleTitle": "Module 3: Navigation", "moduleDescription": "Implementing navigation in mobile apps." },
-        { "moduleTitle": "Module 4: State Management", "moduleDescription": "Using hooks and context." },
-        { "moduleTitle": "Module 5: Deployment", "moduleDescription": "Publishing your mobile app." }
+          {
+              "moduleTitle": "Module 1: React Native Setup",
+              "moduleDescription": "Setting up the environment.",
+              "content": "Learn how to set up React Native development environment using Expo and CLI. Understand the folder structure and core dependencies."
+          },
+          {
+              "moduleTitle": "Module 2: Building Components",
+              "moduleDescription": "Core components of React Native.",
+              "content": "Explore built-in components such as View, Text, Image, TextInput, and Button. Learn how to structure and style components efficiently."
+          },
+          {
+              "moduleTitle": "Module 3: Navigation",
+              "moduleDescription": "Implementing navigation in mobile apps.",
+              "content": "Understand navigation in React Native using React Navigation. Learn about stack navigation, tab navigation, and drawer navigation."
+          },
+          {
+              "moduleTitle": "Module 4: State Management",
+              "moduleDescription": "Using hooks and context.",
+              "content": "Learn how to manage state using useState, useEffect, and Context API. Understand how to share state between components efficiently."
+          },
+          {
+              "moduleTitle": "Module 5: Deployment",
+              "moduleDescription": "Publishing your mobile app.",
+              "content": "Discover how to build and publish React Native apps on the App Store and Google Play. Learn about app signing, testing, and release management."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 18,
       "title": "Introduction to SQL Full Course",
       "coverImage": "../assets/CourseCoverImg/18.jpeg",
@@ -297,15 +725,36 @@
       "instructor": "Mr. Henry Collins",
       "rating": 4.1,
       "lastUpdated": "28 January 2025",
+      "category": "Data Science",
       "modules": [
-        { "moduleTitle": "Module 1: SQL Basics", "moduleDescription": "Introduction to SQL queries." },
-        { "moduleTitle": "Module 2: Data Manipulation", "moduleDescription": "INSERT, UPDATE, DELETE." },
-        { "moduleTitle": "Module 3: Data Retrieval", "moduleDescription": "SELECT statements and filters." },
-        { "moduleTitle": "Module 4: Joins", "moduleDescription": "Combining data from multiple tables." },
-        { "moduleTitle": "Module 5: Advanced SQL", "moduleDescription": "Subqueries and indexing." }
+          {
+              "moduleTitle": "Module 1: SQL Basics",
+              "moduleDescription": "Introduction to SQL queries.",
+              "content": "Understand SQL syntax, database structure, and how to execute basic SELECT queries to retrieve data."
+          },
+          {
+              "moduleTitle": "Module 2: Data Manipulation",
+              "moduleDescription": "INSERT, UPDATE, DELETE.",
+              "content": "Learn how to manipulate data within a database using SQL statements for inserting, updating, and deleting records."
+          },
+          {
+              "moduleTitle": "Module 3: Data Retrieval",
+              "moduleDescription": "SELECT statements and filters.",
+              "content": "Master advanced SELECT queries with filtering, sorting, and aggregate functions to analyze data efficiently."
+          },
+          {
+              "moduleTitle": "Module 4: Joins",
+              "moduleDescription": "Combining data from multiple tables.",
+              "content": "Understand SQL joins including INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN to combine data from multiple tables."
+          },
+          {
+              "moduleTitle": "Module 5: Advanced SQL",
+              "moduleDescription": "Subqueries and indexing.",
+              "content": "Explore complex queries using subqueries, indexing strategies for performance optimization, and best practices for database design."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 19,
       "title": "Modern CSS Techniques",
       "coverImage": "../assets/CourseCoverImg/19.jpeg",
@@ -314,15 +763,36 @@
       "instructor": "Ms. Olivia Brown",
       "rating": 4.2,
       "lastUpdated": "10 February 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: CSS Basics", "moduleDescription": "Introduction to CSS." },
-        { "moduleTitle": "Module 2: Flexbox", "moduleDescription": "Building flexible layouts." },
-        { "moduleTitle": "Module 3: CSS Grid", "moduleDescription": "Creating grid-based layouts." },
-        { "moduleTitle": "Module 4: Responsive Design", "moduleDescription": "Media queries and fluid layouts." },
-        { "moduleTitle": "Module 5: Advanced Techniques", "moduleDescription": "Animations and transitions." }
+          {
+              "moduleTitle": "Module 1: CSS Basics",
+              "moduleDescription": "Introduction to CSS.",
+              "content": "Understand CSS syntax, selectors, properties, and how to apply styles effectively to HTML elements."
+          },
+          {
+              "moduleTitle": "Module 2: Flexbox",
+              "moduleDescription": "Building flexible layouts.",
+              "content": "Learn how to use CSS Flexbox for creating responsive and flexible layouts with proper alignment and spacing."
+          },
+          {
+              "moduleTitle": "Module 3: CSS Grid",
+              "moduleDescription": "Creating grid-based layouts.",
+              "content": "Explore the CSS Grid system, defining rows, columns, and responsive layouts using grid-template-areas."
+          },
+          {
+              "moduleTitle": "Module 4: Responsive Design",
+              "moduleDescription": "Media queries and fluid layouts.",
+              "content": "Implement responsive design techniques using media queries, relative units, and fluid layouts for different screen sizes."
+          },
+          {
+              "moduleTitle": "Module 5: Advanced Techniques",
+              "moduleDescription": "Animations and transitions.",
+              "content": "Discover CSS animations, transitions, and keyframe animations to enhance user experience in web applications."
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 20,
       "title": "Introduction to Node.js",
       "coverImage": "../assets/CourseCoverImg/20.jpeg",
@@ -331,13 +801,33 @@
       "instructor": "Mr. David Parker",
       "rating": 4.3,
       "lastUpdated": "03 March 2025",
+      "category": "Web Development",
       "modules": [
-        { "moduleTitle": "Module 1: Node.js Basics", "moduleDescription": "Introduction to Node.js." },
-        { "moduleTitle": "Module 2: Working with Modules", "moduleDescription": "Using built-in and external modules." },
-        { "moduleTitle": "Module 3: Express.js", "moduleDescription": "Setting up a server with Express." },
-        { "moduleTitle": "Module 4: Middleware", "moduleDescription": "Handling requests and responses." },
-        { "moduleTitle": "Module 5: Project Deployment", "moduleDescription": "Deploying Node.js applications." }
+          {
+              "moduleTitle": "Module 1: Node.js Basics",
+              "moduleDescription": "Introduction to Node.js.",
+              "content": "Understand what Node.js is, how it works, and how to set up a Node.js environment."
+          },
+          {
+              "moduleTitle": "Module 2: Working with Modules",
+              "moduleDescription": "Using built-in and external modules.",
+              "content": "Learn about built-in Node.js modules, npm packages, and how to use third-party libraries."
+          },
+          {
+              "moduleTitle": "Module 3: Express.js",
+              "moduleDescription": "Setting up a server with Express.",
+              "content": "Understand how to create RESTful APIs using Express.js, middleware, and route handling."
+          },
+          {
+              "moduleTitle": "Module 4: Middleware",
+              "moduleDescription": "Handling requests and responses.",
+              "content": "Learn about middleware functions in Express and how to process incoming HTTP requests."
+          },
+          {
+              "moduleTitle": "Module 5: Project Deployment",
+              "moduleDescription": "Deploying Node.js applications.",
+              "content": "Discover how to deploy Node.js applications using services like Heroku, AWS, or DigitalOcean."
+          }
       ]
-    }
-  ]
-  
+  }
+]

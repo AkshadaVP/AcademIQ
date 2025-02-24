@@ -1,0 +1,122 @@
+/* Overall page container */
+.syllabus-page {
+    width: 100%;
+    height: 100vh; /* Use auto if content height varies */
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+  }
+  
+  /* Syllabus content area: two columns */
+  .syllabus-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Left Column: Syllabus list */
+  .syllabus-list {
+    width: 25%; /* Adjust as needed */
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  }
+  
+  .syllabus-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #555;
+  }
+  
+  .syllabus-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .syllabus-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .chapter-bullet {
+    color: #7a7a7a;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .chapter-text {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  /* Change text color on hover */
+  .syllabus-list li:hover .chapter-text {
+    color: #6441a5;
+  }
+  
+  /* Right Column: Chapter details */
+  .chapter-details {
+    flex: 1;
+    padding: 1.5rem;
+    overflow-y: auto;
+    background-color: #fafafa;
+  }
+  
+  .chapter-details-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .chapter-paragraph {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    line-height: 1.6;
+  }
+
+  #checkbox-id{
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Optional scrollbar styling */
+  .chapter-details::-webkit-scrollbar {
+    width: 6px;
+  }
+  .chapter-details::-webkit-scrollbar-track {
+    background: #eee;
+  }
+  .chapter-details::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+  .chapter-details::-webkit-scrollbar-thumb:hover {
+    background: #999;
+  }
+  
+  .back-btn {
+    background-color: #6441a5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.back-btn:hover {
+    background-color: #532f8c;
+}
