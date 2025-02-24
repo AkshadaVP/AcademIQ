@@ -1,3 +1,4 @@
+// CoursesSection.jsx
 import React from "react";
 import Card from "./Card";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,6 +7,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./CoursesSection.css";
+
+// Import your JSON data (make sure the path is correct)
+import coursesData from "../data/courses.json";
 
 const CoursesSection = () => {
   return (
@@ -25,14 +29,13 @@ const CoursesSection = () => {
           modules={[Navigation, Pagination]}
           className="CardContainerMain"
         >
-          <SwiperSlide><Card /></SwiperSlide>
-          <SwiperSlide><Card /></SwiperSlide>
-          <SwiperSlide><Card /></SwiperSlide>
-          <SwiperSlide><Card /></SwiperSlide>
-          <SwiperSlide><Card /></SwiperSlide>
-          <SwiperSlide><Card /></SwiperSlide>
-          <SwiperSlide><Card /></SwiperSlide>
-          <SwiperSlide><Card /></SwiperSlide>
+          {/* Map over the courses JSON data */}
+          {coursesData.map((course) => (
+            <SwiperSlide key={course.id}>
+              {/* Pass course data as a prop to Card */}
+              <Card course={course} />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>

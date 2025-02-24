@@ -1,0 +1,343 @@
+[
+    {
+      "id": 1,
+      "title": "Fundamentals of Artificial Intelligence",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "20 Hours",
+      "description": "Introduction to AIML, AI/DS, branch specializations, applications.",
+      "instructor": "Prof. Alok Bhoye",
+      "rating": 4.0,
+      "lastUpdated": "12 February 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Introduction", "moduleDescription": "Overview of AI concepts." },
+        { "moduleTitle": "Module 2: Data Science Basics", "moduleDescription": "Fundamentals of data science." },
+        { "moduleTitle": "Module 3: Machine Learning", "moduleDescription": "Basics of ML algorithms." },
+        { "moduleTitle": "Module 4: Deep Learning", "moduleDescription": "Introduction to neural networks." },
+        { "moduleTitle": "Module 5: Applications", "moduleDescription": "Real-world AI applications." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Web Development with React",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "25 Hours",
+      "description": "Learn how to build dynamic web applications using React.",
+      "instructor": "Ms. Jane Doe",
+      "rating": 4.5,
+      "lastUpdated": "05 March 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: React Basics", "moduleDescription": "Understanding components and JSX." },
+        { "moduleTitle": "Module 2: State & Props", "moduleDescription": "Managing state and passing data." },
+        { "moduleTitle": "Module 3: Routing", "moduleDescription": "Implementing navigation with React Router." },
+        { "moduleTitle": "Module 4: Hooks", "moduleDescription": "Using useState, useEffect, etc." },
+        { "moduleTitle": "Module 5: Advanced Concepts", "moduleDescription": "Context API and performance optimizations." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Introduction to Machine Learning",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "18 Hours",
+      "description": "Explore basic ML concepts and algorithms.",
+      "instructor": "Dr. John Smith",
+      "rating": 4.3,
+      "lastUpdated": "22 January 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Overview", "moduleDescription": "What is machine learning?" },
+        { "moduleTitle": "Module 2: Supervised Learning", "moduleDescription": "Regression and classification basics." },
+        { "moduleTitle": "Module 3: Unsupervised Learning", "moduleDescription": "Clustering and dimensionality reduction." },
+        { "moduleTitle": "Module 4: Model Evaluation", "moduleDescription": "Metrics and validation techniques." },
+        { "moduleTitle": "Module 5: Case Studies", "moduleDescription": "Real-world applications of ML." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Advanced React Techniques",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "22 Hours",
+      "description": "Dive deep into React for building scalable applications.",
+      "instructor": "Mr. Alex Johnson",
+      "rating": 4.7,
+      "lastUpdated": "10 February 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Performance Optimization", "moduleDescription": "Improving component performance." },
+        { "moduleTitle": "Module 2: Code Splitting", "moduleDescription": "Lazy loading components." },
+        { "moduleTitle": "Module 3: Custom Hooks", "moduleDescription": "Creating reusable logic." },
+        { "moduleTitle": "Module 4: State Management", "moduleDescription": "Redux vs Context API." },
+        { "moduleTitle": "Module 5: Testing", "moduleDescription": "Testing components with Jest." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Data Visualization with D3.js",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "15 Hours",
+      "description": "Learn how to create interactive data visualizations.",
+      "instructor": "Ms. Emily Turner",
+      "rating": 4.2,
+      "lastUpdated": "30 December 2024",
+      "modules": [
+        { "moduleTitle": "Module 1: Introduction to D3", "moduleDescription": "Setting up D3.js." },
+        { "moduleTitle": "Module 2: Data Binding", "moduleDescription": "Linking data to DOM elements." },
+        { "moduleTitle": "Module 3: Scales and Axes", "moduleDescription": "Mapping data values to visual dimensions." },
+        { "moduleTitle": "Module 4: Animations", "moduleDescription": "Animating charts and transitions." },
+        { "moduleTitle": "Module 5: Advanced Visualizations", "moduleDescription": "Creating interactive dashboards." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Python for Data Science",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "30 Hours",
+      "description": "Master Python for data analysis, visualization, and machine learning.",
+      "instructor": "Dr. Linda Miller",
+      "rating": 4.6,
+      "lastUpdated": "15 March 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Python Basics", "moduleDescription": "Introduction to Python programming." },
+        { "moduleTitle": "Module 2: Data Analysis", "moduleDescription": "Using pandas and NumPy." },
+        { "moduleTitle": "Module 3: Data Visualization", "moduleDescription": "Matplotlib and Seaborn." },
+        { "moduleTitle": "Module 4: Machine Learning", "moduleDescription": "Scikit-learn basics." },
+        { "moduleTitle": "Module 5: Project Work", "moduleDescription": "Hands-on data science project." }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Full-Stack Web Development",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "40 Hours",
+      "description": "Become a full-stack developer using MERN stack.",
+      "instructor": "Mr. Robert Brown",
+      "rating": 4.8,
+      "lastUpdated": "01 April 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: HTML & CSS", "moduleDescription": "Building the front-end." },
+        { "moduleTitle": "Module 2: JavaScript Basics", "moduleDescription": "Dynamic behavior on the web." },
+        { "moduleTitle": "Module 3: React.js", "moduleDescription": "Modern front-end framework." },
+        { "moduleTitle": "Module 4: Node.js & Express", "moduleDescription": "Backend development." },
+        { "moduleTitle": "Module 5: MongoDB", "moduleDescription": "Database management." }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "UI/UX Design Essentials",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "18 Hours",
+      "description": "Learn the principles of UI/UX design and how to create user-friendly interfaces.",
+      "instructor": "Ms. Sarah Lee",
+      "rating": 4.4,
+      "lastUpdated": "20 February 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Design Basics", "moduleDescription": "Principles of design." },
+        { "moduleTitle": "Module 2: User Research", "moduleDescription": "Understanding user needs." },
+        { "moduleTitle": "Module 3: Wireframing", "moduleDescription": "Sketching interface ideas." },
+        { "moduleTitle": "Module 4: Prototyping", "moduleDescription": "Building interactive prototypes." },
+        { "moduleTitle": "Module 5: Usability Testing", "moduleDescription": "Testing designs with users." }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mobile App Development with React Native",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "28 Hours",
+      "description": "Build cross-platform mobile applications using React Native and Expo.",
+      "instructor": "Mr. Kevin White",
+      "rating": 4.5,
+      "lastUpdated": "10 March 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: React Native Basics", "moduleDescription": "Setting up the environment." },
+        { "moduleTitle": "Module 2: Components and Navigation", "moduleDescription": "Building UI and navigation." },
+        { "moduleTitle": "Module 3: State Management", "moduleDescription": "Using hooks and context." },
+        { "moduleTitle": "Module 4: Styling", "moduleDescription": "Applying styles in React Native." },
+        { "moduleTitle": "Module 5: Deployment", "moduleDescription": "Publishing your app." }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Introduction to Cloud Computing",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "20 Hours",
+      "description": "Learn the basics of cloud computing and services like AWS and Azure.",
+      "instructor": "Dr. Emily Clark",
+      "rating": 4.3,
+      "lastUpdated": "05 February 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Cloud Fundamentals", "moduleDescription": "Understanding cloud concepts." },
+        { "moduleTitle": "Module 2: AWS Basics", "moduleDescription": "Introduction to Amazon Web Services." },
+        { "moduleTitle": "Module 3: Azure Overview", "moduleDescription": "Basics of Microsoft Azure." },
+        { "moduleTitle": "Module 4: Cloud Security", "moduleDescription": "Security best practices." },
+        { "moduleTitle": "Module 5: Cloud Deployment", "moduleDescription": "Deploying applications on the cloud." }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Digital Marketing 101",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "16 Hours",
+      "description": "Learn digital marketing strategies and tools to grow your business online.",
+      "instructor": "Ms. Laura Green",
+      "rating": 4.1,
+      "lastUpdated": "18 January 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Introduction to Digital Marketing", "moduleDescription": "Overview of digital marketing." },
+        { "moduleTitle": "Module 2: SEO Basics", "moduleDescription": "Understanding search engine optimization." },
+        { "moduleTitle": "Module 3: Social Media Marketing", "moduleDescription": "Leveraging social platforms." },
+        { "moduleTitle": "Module 4: Content Marketing", "moduleDescription": "Creating engaging content." },
+        { "moduleTitle": "Module 5: Analytics", "moduleDescription": "Measuring performance." }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Cybersecurity Essentials",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "24 Hours",
+      "description": "Learn the fundamentals of cybersecurity and best practices to protect data.",
+      "instructor": "Mr. David King",
+      "rating": 4.6,
+      "lastUpdated": "12 March 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Cybersecurity Basics", "moduleDescription": "Understanding cybersecurity threats." },
+        { "moduleTitle": "Module 2: Network Security", "moduleDescription": "Securing network infrastructures." },
+        { "moduleTitle": "Module 3: Application Security", "moduleDescription": "Best practices in software security." },
+        { "moduleTitle": "Module 4: Data Protection", "moduleDescription": "Techniques to safeguard data." },
+        { "moduleTitle": "Module 5: Incident Response", "moduleDescription": "Handling security breaches." }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "DevOps for Beginners",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "22 Hours",
+      "description": "Learn the basics of DevOps, including CI/CD, containerization, and automation.",
+      "instructor": "Ms. Fiona Scott",
+      "rating": 4.2,
+      "lastUpdated": "08 February 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Introduction to DevOps", "moduleDescription": "What is DevOps?" },
+        { "moduleTitle": "Module 2: Continuous Integration", "moduleDescription": "Basics of CI pipelines." },
+        { "moduleTitle": "Module 3: Continuous Deployment", "moduleDescription": "Automating deployments." },
+        { "moduleTitle": "Module 4: Containerization", "moduleDescription": "Using Docker and Kubernetes." },
+        { "moduleTitle": "Module 5: Monitoring & Logging", "moduleDescription": "Keeping track of applications." }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Introduction to Blockchain",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "18 Hours",
+      "description": "Understand the fundamentals of blockchain technology and its applications.",
+      "instructor": "Mr. Samuel Carter",
+      "rating": 4.0,
+      "lastUpdated": "25 January 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Blockchain Basics", "moduleDescription": "What is blockchain?" },
+        { "moduleTitle": "Module 2: Cryptography", "moduleDescription": "Foundations of secure transactions." },
+        { "moduleTitle": "Module 3: Decentralization", "moduleDescription": "How decentralization works." },
+        { "moduleTitle": "Module 4: Smart Contracts", "moduleDescription": "Automating agreements." },
+        { "moduleTitle": "Module 5: Blockchain Use Cases", "moduleDescription": "Real-world applications." }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Introduction to SEO",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "14 Hours",
+      "description": "Learn the basics of Search Engine Optimization to improve website rankings.",
+      "instructor": "Ms. Rebecca Adams",
+      "rating": 4.3,
+      "lastUpdated": "05 January 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: SEO Fundamentals", "moduleDescription": "Basics of SEO." },
+        { "moduleTitle": "Module 2: Keyword Research", "moduleDescription": "Finding the right keywords." },
+        { "moduleTitle": "Module 3: On-Page SEO", "moduleDescription": "Optimizing your website." },
+        { "moduleTitle": "Module 4: Off-Page SEO", "moduleDescription": "Building quality backlinks." },
+        { "moduleTitle": "Module 5: SEO Tools", "moduleDescription": "Tools and analytics for SEO." }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "JavaScript Essentials",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "20 Hours",
+      "description": "Master JavaScript, the foundation of modern web development.",
+      "instructor": "Mr. Michael Lee",
+      "rating": 4.5,
+      "lastUpdated": "12 February 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: JavaScript Basics", "moduleDescription": "Syntax and fundamentals." },
+        { "moduleTitle": "Module 2: DOM Manipulation", "moduleDescription": "Interacting with web pages." },
+        { "moduleTitle": "Module 3: ES6 Features", "moduleDescription": "Modern JavaScript improvements." },
+        { "moduleTitle": "Module 4: Asynchronous JS", "moduleDescription": "Promises, async/await." },
+        { "moduleTitle": "Module 5: JavaScript in Practice", "moduleDescription": "Building projects with JS." }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "React Native Fundamentals",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "26 Hours",
+      "description": "Build mobile apps using React Native and Expo.",
+      "instructor": "Ms. Karen Wilson",
+      "rating": 4.4,
+      "lastUpdated": "17 March 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: React Native Setup", "moduleDescription": "Setting up the environment." },
+        { "moduleTitle": "Module 2: Building Components", "moduleDescription": "Core components of React Native." },
+        { "moduleTitle": "Module 3: Navigation", "moduleDescription": "Implementing navigation in mobile apps." },
+        { "moduleTitle": "Module 4: State Management", "moduleDescription": "Using hooks and context." },
+        { "moduleTitle": "Module 5: Deployment", "moduleDescription": "Publishing your mobile app." }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Introduction to SQL",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "15 Hours",
+      "description": "Learn the basics of SQL for managing databases.",
+      "instructor": "Mr. Henry Collins",
+      "rating": 4.1,
+      "lastUpdated": "28 January 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: SQL Basics", "moduleDescription": "Introduction to SQL queries." },
+        { "moduleTitle": "Module 2: Data Manipulation", "moduleDescription": "INSERT, UPDATE, DELETE." },
+        { "moduleTitle": "Module 3: Data Retrieval", "moduleDescription": "SELECT statements and filters." },
+        { "moduleTitle": "Module 4: Joins", "moduleDescription": "Combining data from multiple tables." },
+        { "moduleTitle": "Module 5: Advanced SQL", "moduleDescription": "Subqueries and indexing." }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Modern CSS Techniques",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "12 Hours",
+      "description": "Learn CSS Grid, Flexbox, and modern styling techniques for responsive design.",
+      "instructor": "Ms. Olivia Brown",
+      "rating": 4.2,
+      "lastUpdated": "10 February 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: CSS Basics", "moduleDescription": "Introduction to CSS." },
+        { "moduleTitle": "Module 2: Flexbox", "moduleDescription": "Building flexible layouts." },
+        { "moduleTitle": "Module 3: CSS Grid", "moduleDescription": "Creating grid-based layouts." },
+        { "moduleTitle": "Module 4: Responsive Design", "moduleDescription": "Media queries and fluid layouts." },
+        { "moduleTitle": "Module 5: Advanced Techniques", "moduleDescription": "Animations and transitions." }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Introduction to Node.js",
+      "coverImage": "/assets/CourseCoverImg.jpg",
+      "duration": "20 Hours",
+      "description": "Learn server-side JavaScript with Node.js and Express.",
+      "instructor": "Mr. David Parker",
+      "rating": 4.3,
+      "lastUpdated": "03 March 2025",
+      "modules": [
+        { "moduleTitle": "Module 1: Node.js Basics", "moduleDescription": "Introduction to Node.js." },
+        { "moduleTitle": "Module 2: Working with Modules", "moduleDescription": "Using built-in and external modules." },
+        { "moduleTitle": "Module 3: Express.js", "moduleDescription": "Setting up a server with Express." },
+        { "moduleTitle": "Module 4: Middleware", "moduleDescription": "Handling requests and responses." },
+        { "moduleTitle": "Module 5: Project Deployment", "moduleDescription": "Deploying Node.js applications." }
+      ]
+    }
+  ]
+  

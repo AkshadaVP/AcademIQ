@@ -1,50 +1,44 @@
+// Card.jsx
 import React from "react";
-import CoverImg from "../assets/CourseCoverImg.jpg"; // Ensure correct path
-import StarImg from "../assets/StarImg.png"; // Ensure correct path
-import ClockIcon from "../assets/ClockImg.png"; // Ensure correct path
-import './Card.css';
+import ClockIcon from "../assets/ClockImg.png";
+import StarImg from "../assets/StarImg.png";
+import "./Card.css";
 
-const CourseCard = () => {
+const Card = ({ course }) => {
   return (
     <div className="course-card">
-      {/* Course Cover Image with Duration Overlay */}
+      {/* Course Cover Image */}
       <div className="course-img-container">
-        <img src={CoverImg} alt="Course Cover" className="course-img" />
-        
+        <img src={course.coverImage} alt="Course Cover" className="course-img" />
       </div>
 
       {/* Course Details */}
       <div className="course-details">
         <div className="headingandduration">
-        <h2 className="course-title">
-          Fundamentals Of <br /> Artificial Intelligence
-        </h2>
-        <div className="duration">
-          <img src={ClockIcon} alt="Clock Icon" className="clock-icon" />
-          <span>20 Hours</span>
+          <h2 className="course-title">{course.title}</h2>
+          <div className="duration">
+            <img src={ClockIcon} alt="Clock Icon" className="clock-icon" />
+            <span>{course.duration}</span>
+          </div>
         </div>
 
-        </div>
-        
-        <p className="course-description">
-          Introduction to AIML, AI/DS, branch specializations, and real-world applications.
-        </p>
-        <h3 className="instructor">By Prof. Alok Bhoye</h3>
+        <p className="course-description">{course.description}</p>
+        <h3 className="instructor">By {course.instructor}</h3>
 
         {/* Rating Section */}
         <div className="rating">
-          <span className="rating-value">4.0</span>
+          <span className="rating-value">{course.rating}</span>
           <img src={StarImg} alt="Star Rating" className="star-icons" />
         </div>
 
         {/* Course Meta: Modules & Last Updated */}
         <div className="course-meta">
-          <span className="modules">5 Modules</span>
-          <span className="update-date">Updated on 12 February 2025</span>
+          <span className="modules">{course.modules.length} Modules</span>
+          <span className="update-date">Updated on {course.lastUpdated}</span>
         </div>
       </div>
     </div>
   );
 };
 
-export default CourseCard;
+export default Card;
