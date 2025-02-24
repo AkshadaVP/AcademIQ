@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom"; // Import Link to navigate to course details
 import Card from "./Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
@@ -44,6 +45,13 @@ const CoursesSection = () => {
             {courses.map((course) => (
               <SwiperSlide key={course.id}>
                 <Card course={course} />
+
+                {/* Add a button or link to navigate to the Course Detail Page */}
+                <div style={{ textAlign: "center", marginTop: "1rem" }}>
+                  <Link to={`/courses/${course.id}`}>
+                    <button className="view-details-btn">View Details</button>
+                  </Link>
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>

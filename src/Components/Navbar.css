@@ -1,32 +1,55 @@
-/* Global Styles */
+/* Global reset */
 * {
-    margin: 0px;
-}
-
-/* Common Navbar Styling */
-.nav-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 
+    Combine styles for both .nav-container (landing)
+    and .main-Navcontainer (homepage) so they look the same.
+  */
+  .nav-container,
+  .main-Navcontainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
     background-color: white;
     position: relative;
-}
-
-/* Landing Page Navbar */
-.button-container {
+  
+    /* Add the same shadow & corner radius */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  /* Logo styling on the landing navbar */
+  .logo-container.nav-logo img {
+    margin: 0.3rem;
+    height: 40px;
+    filter: opacity(0.5);
+  }
+  
+  /* Landing Page Navbar Buttons (About, Categories, Login) */
+  .button-container {
     display: flex;
     gap: 10px;
-}
-
-#nav-categories {
-    margin-left: 3rem;
+  }
+  
+  #nav-about,
+  #nav-categories {
     background-color: transparent;
     border: none;
     font-size: larger;
-}
-
-#nav-login {
+    cursor: pointer;
+  }
+  
+  #nav-categories {
+    margin-left: 3rem;
+  }
+  
+  #nav-login {
     margin-left: 2rem;
     padding: 0.3rem;
     border-radius: 25px;
@@ -35,34 +58,28 @@
     background-color: #231F20;
     color: white;
     font-size: larger;
-}
-
-#nav-about {
-    background-color: transparent;
-    border: none;
-    font-size: larger;
-}
-
-#logo-img {
-    margin: 0.3rem;
-    height: 40px;
-    filter: opacity(0.5);
-}
-
-/* Homepage Navbar (After Login) */
-.main-Navcontainer {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-
-.profileandLogout {
+    cursor: pointer;
+  }
+  
+  /* Hover states for landing buttons (optional) */
+  #nav-about:hover,
+  #nav-categories:hover {
+    text-decoration: underline;
+  }
+  
+  #nav-login:hover {
+    background-color: #333;
+  }
+  
+  /* Homepage Navbar (After Login) - uses .profileandLogout */
+  .profileandLogout {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.profileandLogout button {
+  }
+  
+  /* Logout button styling */
+  .profileandLogout button {
     background-color: black;
     color: white;
     border: none;
@@ -70,9 +87,14 @@
     border-radius: 20px;
     cursor: pointer;
     font-size: 14px;
-}
-
-.profile {
+  }
+  
+  .profileandLogout button:hover {
+    background-color: #333;
+  }
+  
+  /* Profile circle (if needed) */
+  .profile {
     width: 30px;
     height: 30px;
     background-color: #ddd;
@@ -82,8 +104,5 @@
     align-items: center;
     border: 2px solid #3d3d3d;
     background-size: cover;
-}
-
-.profileandLogout button:hover {
-    background-color: #333;
-}
+  }
+  

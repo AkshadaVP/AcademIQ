@@ -1,43 +1,71 @@
-import React from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import LogoImg from "../assets/AcademIQ-Logo.png";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
-const Navbar = () => {
-  const location = useLocation();
-  const navigate = useNavigate(); // Hook to programmatically navigate
-  const isHomePage = location.pathname === "/home"; // Check if on homepage
+// Logos for landing and homepage
+import LandingLogo from "../assets/AcademIQ-Logo.png";
+import HomepageLogo from "../assets/AcademIQ-Logo.png";
 
-  // Function to handle Logout and Redirect to Landing Page
-  const handleLogout = () => {
-    navigate("/"); // Redirects to Landing Page ("/")
+const Navbar = () => {
+  const navigate = useNavigate();
+
+  // 1. Read initial login state from localStorage (default false if not set)
+  const [isLoggedIn, setIsLoggedIn] = useState(() => {
+    const storedVal = localStorage.getItem("isLoggedIn");
+    return storedVal ? JSON.parse(storedVal) : false;
+  });
+
+  // 2. Whenever isLoggedIn changes, update localStorage
+  useEffect(() => {
+    localStorage.setItem("isLoggedIn", JSON.stringify(isLoggedIn));
+  }, [isLoggedIn]);
+
+  // 3. Handle "Login" → set isLoggedIn = true, navigate to /home
+  const handleLogin = () => {
+    setIsLoggedIn(true);
+    navigate("/home");
   };
 
-  return (
-    <div className={`nav-container ${isHomePage ? 'main-Navcontainer' : ''}`}>
-      {/* Logo Section */}
-      <div className={`logo-container ${isHomePage ? '' : 'nav-logo'}`}>
-        <img src={LogoImg} id="logo-img" alt="Logo-img" />
-      </div>
+  // 4. Handle "Logout" → set isLoggedIn = false, navigate to /
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+    navigate("/");
+  };
 
-      {/* Conditional Rendering Based on Page */}
-      {isHomePage ? (
-        // After Login Navbar (Homepage)
-        <div className='profileandLogout'>
+  if (isLoggedIn) {
+    // If user is logged in, show homepage navbar
+    return (
+      <div className="main-Navcontainer">
+        {/* Clicking the logo goes to /home */}
+        <div
+          className="logo-container"
+          onClick={() => navigate("/home")}
+          style={{ cursor: "pointer" }}
+        >
+          <img src={HomepageLogo} alt="Homepage Logo" />
+        </div>
+
+        <div className="profileandLogout">
           <button onClick={handleLogout}>Log Out</button>
+          <div className="profile"></div>
         </div>
-      ) : (
-        // Before Login Navbar (Landing Page)
-        <div className='button-container'>
-          <button id='nav-about'>About</button>
-          <button id='nav-categories'>Categories</button>
-          
-          {/* Login Button redirects to Homepage */}
-          <Link to="/home">
-            <button id='nav-login'>Login</button>
-          </Link>
-        </div>
-      )}
+      </div>
+    );
+  }
+
+  // If user is NOT logged in, show landing (login) navbar
+  return (
+    <div className="nav-container">
+      <div className="logo-container nav-logo">
+        <img src={LandingLogo} id="logo-img" alt="Landing Page Logo" />
+      </div>
+      <div className="button-container">
+        <button id="nav-about">About</button>
+        <button id="nav-categories">Categories</button>
+        <button id="nav-login" onClick={handleLogin}>
+          Login
+        </button>
+      </div>
     </div>
   );
 };
