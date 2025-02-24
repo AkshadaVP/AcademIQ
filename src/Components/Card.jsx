@@ -1,40 +1,55 @@
-// Card.jsx
 import React from "react";
 import ClockIcon from "../assets/ClockImg.png";
 import StarImg from "../assets/StarImg.png";
 import "./Card.css";
 
+// Function to dynamically get course images
+const getCourseImage = (coverImage) => {
+  try {
+    return new URL(coverImage, import.meta.url).href; // Resolves image path correctly
+  } catch (error) {
+    console.error("Error loading image:", error);
+    return new URL("../assets/CourseCoverImg/placeholder.jpg", import.meta.url).href; // Fallback image
+  }
+};
+
 const Card = ({ course }) => {
+  // Ensure course is defined before rendering
+  if (!course) {
+    return <div className="course-card">Loading...</div>;
+  }
+
+  // Extract numeric value from duration and add "h" instead of "Hours"
+  const formattedDuration = course.duration.replace(/\D/g, "") + "h";
+
   return (
     <div className="course-card">
       {/* Course Cover Image */}
       <div className="course-img-container">
-        <img src={course.coverImage} alt="Course Cover" className="course-img" />
+        <img
+          src={getCourseImage(course.coverImage)}
+          alt={`Cover of ${course.title || "Course"}`}
+          className="course-img"
+        />
       </div>
 
       {/* Course Details */}
       <div className="course-details">
         <div className="headingandduration">
-          <h2 className="course-title">{course.title}</h2>
+          <h2 className="course-title">{course.title || "Untitled Course"}</h2>
           <div className="duration">
             <img src={ClockIcon} alt="Clock Icon" className="clock-icon" />
-            <span>{course.duration}</span>
+            <span>{formattedDuration}</span>
           </div>
         </div>
 
-        <p className="course-description">{course.description}</p>
-        <h3 className="instructor">By {course.instructor}</h3>
+        <p className="course-description">{course.description || "No description available."}</p>
+        <h3 className="instructor">By {course.instructor || "Unknown Instructor"}</h3>
 
         {/* Rating Section */}
         <div className="rating">
-          <span className="rating-value">{course.rating}</span>
+          <span className="rating-value">{course.rating || "N/A"}</span>
           <img src={StarImg} alt="Star Rating" className="star-icons" />
-        </div>
-
-        {/* Course Meta: Modules & Last Updated */}
-        <div className="course-meta">
-          <span className="modules">{course.modules.length} Modules</span>
-          <span className="update-date">Updated on {course.lastUpdated}</span>
         </div>
       </div>
     </div>

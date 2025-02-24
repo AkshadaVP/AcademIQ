@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Fundamentals of Artificial Intelligence",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/1.jpeg",
       "duration": "20 Hours",
       "description": "Introduction to AIML, AI/DS, branch specializations, applications.",
       "instructor": "Prof. Alok Bhoye",
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "title": "Web Development with React",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/2.jpeg",
       "duration": "25 Hours",
       "description": "Learn how to build dynamic web applications using React.",
       "instructor": "Ms. Jane Doe",
@@ -36,7 +36,7 @@
     {
       "id": 3,
       "title": "Introduction to Machine Learning",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/3.jpeg",
       "duration": "18 Hours",
       "description": "Explore basic ML concepts and algorithms.",
       "instructor": "Dr. John Smith",
@@ -53,7 +53,7 @@
     {
       "id": 4,
       "title": "Advanced React Techniques",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/4.jpeg",
       "duration": "22 Hours",
       "description": "Dive deep into React for building scalable applications.",
       "instructor": "Mr. Alex Johnson",
@@ -70,7 +70,7 @@
     {
       "id": 5,
       "title": "Data Visualization with D3.js",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/5.jpeg",
       "duration": "15 Hours",
       "description": "Learn how to create interactive data visualizations.",
       "instructor": "Ms. Emily Turner",
@@ -87,7 +87,7 @@
     {
       "id": 6,
       "title": "Python for Data Science",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/6.jpeg",
       "duration": "30 Hours",
       "description": "Master Python for data analysis, visualization, and machine learning.",
       "instructor": "Dr. Linda Miller",
@@ -104,7 +104,7 @@
     {
       "id": 7,
       "title": "Full-Stack Web Development",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/7.jpeg",
       "duration": "40 Hours",
       "description": "Become a full-stack developer using MERN stack.",
       "instructor": "Mr. Robert Brown",
@@ -121,7 +121,7 @@
     {
       "id": 8,
       "title": "UI/UX Design Essentials",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/8.jpeg",
       "duration": "18 Hours",
       "description": "Learn the principles of UI/UX design and how to create user-friendly interfaces.",
       "instructor": "Ms. Sarah Lee",
@@ -137,8 +137,8 @@
     },
     {
       "id": 9,
-      "title": "Mobile App Development with React Native",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "title": "Mobile App Development - React",
+      "coverImage": "../assets/CourseCoverImg/9.jpeg",
       "duration": "28 Hours",
       "description": "Build cross-platform mobile applications using React Native and Expo.",
       "instructor": "Mr. Kevin White",
@@ -155,7 +155,7 @@
     {
       "id": 10,
       "title": "Introduction to Cloud Computing",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/10.jpeg",
       "duration": "20 Hours",
       "description": "Learn the basics of cloud computing and services like AWS and Azure.",
       "instructor": "Dr. Emily Clark",
@@ -171,8 +171,8 @@
     },
     {
       "id": 11,
-      "title": "Digital Marketing 101",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "title": "Digital Marketing 101 Full Course",
+      "coverImage": "../assets/CourseCoverImg/11.jpeg",
       "duration": "16 Hours",
       "description": "Learn digital marketing strategies and tools to grow your business online.",
       "instructor": "Ms. Laura Green",
@@ -189,7 +189,7 @@
     {
       "id": 12,
       "title": "Cybersecurity Essentials",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/12.jpeg",
       "duration": "24 Hours",
       "description": "Learn the fundamentals of cybersecurity and best practices to protect data.",
       "instructor": "Mr. David King",
@@ -205,8 +205,8 @@
     },
     {
       "id": 13,
-      "title": "DevOps for Beginners",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "title": "DevOps for Beginners Full Course",
+      "coverImage": "../assets/CourseCoverImg/13.jpeg",
       "duration": "22 Hours",
       "description": "Learn the basics of DevOps, including CI/CD, containerization, and automation.",
       "instructor": "Ms. Fiona Scott",
@@ -223,9 +223,9 @@
     {
       "id": 14,
       "title": "Introduction to Blockchain",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/14.jpeg",
       "duration": "18 Hours",
-      "description": "Understand the fundamentals of blockchain technology and its applications.",
+      "description": "Understand the fundamentals of blockchain technology.",
       "instructor": "Mr. Samuel Carter",
       "rating": 4.0,
       "lastUpdated": "25 January 2025",
@@ -240,7 +240,7 @@
     {
       "id": 15,
       "title": "Introduction to SEO",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/15.jpeg",
       "duration": "14 Hours",
       "description": "Learn the basics of Search Engine Optimization to improve website rankings.",
       "instructor": "Ms. Rebecca Adams",
@@ -256,8 +256,8 @@
     },
     {
       "id": 16,
-      "title": "JavaScript Essentials",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "title": "JavaScript Essentials Full Course",
+      "coverImage": "../assets/CourseCoverImg/16.jpeg",
       "duration": "20 Hours",
       "description": "Master JavaScript, the foundation of modern web development.",
       "instructor": "Mr. Michael Lee",
@@ -274,7 +274,7 @@
     {
       "id": 17,
       "title": "React Native Fundamentals",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/17.jpeg",
       "duration": "26 Hours",
       "description": "Build mobile apps using React Native and Expo.",
       "instructor": "Ms. Karen Wilson",
@@ -290,8 +290,8 @@
     },
     {
       "id": 18,
-      "title": "Introduction to SQL",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "title": "Introduction to SQL Full Course",
+      "coverImage": "../assets/CourseCoverImg/18.jpeg",
       "duration": "15 Hours",
       "description": "Learn the basics of SQL for managing databases.",
       "instructor": "Mr. Henry Collins",
@@ -308,7 +308,7 @@
     {
       "id": 19,
       "title": "Modern CSS Techniques",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/19.jpeg",
       "duration": "12 Hours",
       "description": "Learn CSS Grid, Flexbox, and modern styling techniques for responsive design.",
       "instructor": "Ms. Olivia Brown",
@@ -325,7 +325,7 @@
     {
       "id": 20,
       "title": "Introduction to Node.js",
-      "coverImage": "/assets/CourseCoverImg.jpg",
+      "coverImage": "../assets/CourseCoverImg/20.jpeg",
       "duration": "20 Hours",
       "description": "Learn server-side JavaScript with Node.js and Express.",
       "instructor": "Mr. David Parker",
