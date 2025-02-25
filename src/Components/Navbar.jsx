@@ -32,6 +32,22 @@ const Navbar = () => {
     navigate("/");
   };
 
+  // Scroll smoothly to the footer element (for About button)
+  const handleAboutClick = () => {
+    const footerElement = document.getElementById("footer");
+    if (footerElement) {
+      footerElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  // Scroll smoothly to the top courses section (for Categories button)
+  const handleCategoriesClick = () => {
+    const topCoursesElement = document.getElementById("top-courses");
+    if (topCoursesElement) {
+      topCoursesElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   if (isLoggedIn) {
     // If user is logged in, show homepage navbar
     return (
@@ -44,7 +60,6 @@ const Navbar = () => {
         >
           <img src={HomepageLogo} alt="Homepage Logo" />
         </div>
-
         <div className="profileandLogout">
           <button onClick={handleLogout}>Log Out</button>
           <div className="profile"></div>
@@ -60,11 +75,8 @@ const Navbar = () => {
         <img src={LandingLogo} id="logo-img" alt="Landing Page Logo" />
       </div>
       <div className="button-container">
-        <button id="nav-about">About</button>
-        <button id="nav-categories">Categories</button>
-        <button id="nav-login" onClick={handleLogin}>
-          Login
-        </button>
+        <button id="nav-about" onClick={handleAboutClick}>About</button>
+        <button id="nav-login" onClick={handleLogin}>Login</button>
       </div>
     </div>
   );

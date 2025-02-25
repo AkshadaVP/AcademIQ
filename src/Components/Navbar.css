@@ -9,7 +9,16 @@
     Combine styles for both .nav-container (landing)
     and .main-Navcontainer (homepage) so they look the same.
   */
-  .nav-container,
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    position: relative;
+    /* No border-radius applied for logged-out state */
+  }
+  
   .main-Navcontainer {
     display: flex;
     align-items: center;
@@ -17,11 +26,12 @@
     padding: 1rem;
     background-color: white;
     position: relative;
-  
-    /* Add the same shadow & corner radius */
+    /* Only logged-in state gets bottom border radius */
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* if desired */
   }
+  
   
   /* Logo styling on the landing navbar */
   .logo-container.nav-logo img {

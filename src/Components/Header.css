@@ -75,6 +75,8 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+    padding-top: 10px;
+    margin-top: 20px;
 }
 
 /* Right side image */

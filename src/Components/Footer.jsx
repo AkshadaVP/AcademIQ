@@ -5,7 +5,7 @@ import Logo from "../assets/AcademIQ-Logo.png"; // Ensure the correct path to yo
 
 const Footer = () => {
   return (
-    <footer className="footer-container">
+    <footer id="footer" className="footer-container">
       <div className="footer-content">
         {/* Left Section - About & Courses */}
         <div className="footer-links">

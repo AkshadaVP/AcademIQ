@@ -22,7 +22,7 @@ const CoursesSection = () => {
   }, []);
 
   return (
-    <div className="CourseSectionContainer">
+    <div id="top-courses" className="CourseSectionContainer">
       <h2 className="CourseHeading">Top Courses</h2>
       {courses.length === 0 ? (
         <p>Loading courses...</p>
